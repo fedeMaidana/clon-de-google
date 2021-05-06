@@ -1,0 +1,32 @@
+/*------------------------------------------- ESTILOS DEL ENCABEZADO --------------------------------------------*/
+
+.header-container nav .left-nav {
+    width: 140px;
+}
+
+.header-container nav .right-nav {
+    width: 100px;
+}
+
+/*------------------------------------------------ ESTILOS DEL MAIN ---------------------------------------------*/
+
+main .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+main .buttons button {
+    width: 150px;
+}
+
+/*--------------------------------------------- ESTILOS DEL FOOTER ----------------------------------------------*/
+
+footer .information-container .information1 p {
+    font-size: 1.2rem;
+}
+
+footer .information-container .information2 p {
+    font-size: 1.2rem;
+}

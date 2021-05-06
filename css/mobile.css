@@ -1,0 +1,227 @@
+/*--------------------------------------------- ESTILOS GENERALES ------------------------------------------------*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/*--------------------------------------------- ESTILOS DEL ENCABEZADO -----------------------------------------*/
+
+.header-container {
+    display: flex;
+    height: 8vh;
+    width: 100vw;
+}
+
+.header-container nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+                    /*--------------------- ENCABEZADO IZQUIERDO ---------------------------*/
+
+.header-container nav .left-nav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 5vh;
+    width: 150px;
+}
+
+.header-container nav .left-nav li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    list-style: none;
+    padding: 1rem 0 0 0;
+}
+
+.header-container nav .left-nav li a {
+    color: hsl(156, 0%, 0%);
+    text-decoration: none;
+}
+
+.header-container nav .left-nav li #gmail-hidden {
+    display: none;
+}
+
+                    /*----------------------- ENCABEZADO DERECHO ---------------------------*/
+
+.header-container nav .right-nav {
+    display: flex;
+    height: 5vh;
+    justify-content: space-evenly;
+    padding: 0.5rem 0 0 0;
+    width: 90px;
+}
+
+.header-container nav .right-nav li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    list-style: none;
+}
+
+.header-container nav .right-nav li a img {
+    height: 15px;
+    margin-top: 0.7rem;
+    width: 15px;
+}
+
+.header-container nav .right-nav #circle {
+    align-items: center;
+    border-radius: 100%;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    width: 30px;
+    background-color: hsl(231, 44%, 56%);
+}
+
+.header-container nav .right-nav #circle a {
+    color: hsl(156, 0%, 100%);
+}
+
+.header-container nav .right-nav li a {
+    color: hsl(156, 0%, 0%);
+    text-decoration: none;
+}
+
+/*-------------------------------------------- ESTILOS DEL MAIN ------------------------------------------------*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 72vh;
+}
+
+main .logo {
+    display: flex;
+    height: 12vh;
+    margin-top: 5rem;
+    justify-content: center;
+    width: 100vw;
+}
+
+main .logo img {
+    height: 6rem;
+}
+
+main .main-input {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+main .main-input .main-input-container {
+    align-items: center;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+}
+
+main .main-input .main-input-container input {
+    border: none;
+    height: 40px;
+    outline: none;
+    width: 60vw;
+}
+
+main .main-input .main-input-container .search-icon {
+    background-image: url('../pics/search-icon.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 18px;
+    width: 18px;
+}
+
+main .main-input .main-input-container .mic-icon {
+    background-image: url('../pics/mic-icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+}
+
+main .button-hidden {
+    display: none;
+}
+
+/*---------------------------------------------- ESTILOS DEL FOOTER ---------------------------------------------*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+}
+
+footer .country {
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    height: 6rem;
+    padding-left: 1rem;
+}
+
+footer .country p {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+}
+
+footer .information-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+footer .information-container .information1 {
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+footer .information-container .information1 p {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+footer .information-container .information2 {
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+footer .information-container .information2 p {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+footer .information-container .information2 #hidden {
+    display: none;
+}
